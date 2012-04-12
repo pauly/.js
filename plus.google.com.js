@@ -1,3 +1,3 @@
 $( function ( ) {
-  // $('nav[role=navigation]').next('div').next('div').remove( );
+  $('nav[role=navigation]').next('div').next('div').css( { display: 'none' } );
 } );
